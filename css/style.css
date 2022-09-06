@@ -118,16 +118,17 @@ p.inset {border-style: inset;
     color: white;
     text-align: center;
     background-image: linear-gradient(to right,#142B77 ,black ,#142B77 );
+    text-transform: uppercase;
       
 
 }
 
 p.solid{border-style: ridge;
     height: 40px;
-    border-top-width: 1px;
+   
     border-left-width: 0px ;
     border-right-width: 0px ;
-    border-bottom-width: 1px ;  
+    
     padding-top: 6px; 
     margin-bottom: 0px;
 }
@@ -215,7 +216,7 @@ p.solid2 label{
 
 .container-fluid3 .row .col-4{
     border-style: ridge;
-    
+    height: 530px;
     border-top: 0;
     border-right: 0px;
     border-bottom: 0px; 
@@ -228,11 +229,33 @@ p.solid2 label{
     border-bottom: 0px;
     border-top: 0px;
     border-right: 0px;
+    
+}
 
-   
-    
-    
-    
+.abadepoimentos{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right,#142B77 ,black ,#142B77 );
+    text-transform: uppercase;
+      
+}
+.figure3{
+    position: relative;
+    top: 50px;
+    width: 50%;
+    height: 37%;
+    border-style: solid;
+
+}
+
+.depoimentos{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+
 }
 
 
