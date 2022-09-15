@@ -5,21 +5,37 @@ Header{
     background-image: linear-gradient(to bottom,black 20%,#082E8F );
     
     
+    
+}
+
+#headgame{
+    margin-top:  ;
 }
 
 .abaprodutos{
     
-    width: 90%;
+    width: 100%;
     height: 100%;
-    margin: 20px 100px 0px;
+    margin: 20px 0px 0px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    
-    
+    position: relative;
+    text-align: center;
+    display: flex;
     
 
+}
+
+.teste .abaprodutos a {
+    
+    bottom: 5px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    
+    
 }
 
 p.inset {border-style: inset;
@@ -37,20 +53,18 @@ p.inset {border-style: inset;
     color: white;
     display:inline-block
     
-   
-    
-    
-
 }
+
+
 
 .carrinho{
-    width: 10%;
-    height: 37%;
-    margin: 10px;
+    width: 40px;
+    height: 40%;
     
+    position: relative;
 }
 
-.login{display:inline-block ; margin: 5px; text-decoration: none; color: white;}
+.login{display:inline-block ; margin: 0px 10px; text-decoration: none; color: white;}
 
 .container-fluid .col-4{
     text-align: center;
@@ -71,7 +85,7 @@ p.inset {border-style: inset;
     width: auto;
     height: 50px;
     
-    background-image: linear-gradient(to bottom,#082E8F 5px,black 35px );
+    background-image: linear-gradient(to bottom,#0637b4 5px,black 35px );
 }
 
 .capa{
