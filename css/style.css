@@ -106,6 +106,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     padding: 0;
     margin: 0;
     
+    justify-content: center;
     
 }
 
@@ -176,25 +177,54 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 .container-fluid5 .row .col-6 {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    
+    
 }
 
 
 .carrousel{
     display: flex;
-    overflow: hidden;
     margin: 0;
     border: 0px;
     width: 687.5px;
     height: 427px;
     margin: 0px;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
     
+    position: relative;
     
 }
 
 .carrousel img{
+    min-width: 687.5px;
     width: 687.5px;
     height: 427px;
+    
+}
 
+.carrousel .imgtexto{
+    min-width: 687.5px;
+    width: 687.5px;
+    height: 427px;
+    display: flex;
+   
+    
+    
+}
+
+.carrousel .imgtexto h3{
+
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    
+    
+    
 }
 
 
