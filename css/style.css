@@ -305,13 +305,26 @@ p.solid{border-style: ridge;
     margin-bottom: 0px;
 }
 
+.centror{
+    background-color: black;
+    height: 530px;
+    text-align: center;
+    background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+    position: relative;
+
+}
+
 .centro{
     background-color: black;
     height: 530px;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+    position: relative;
 
+}
 
+.centro2{
+    display: none;
 }
 
 .figure2{
@@ -352,6 +365,31 @@ p.solid{border-style: ridge;
 
 .textcomprar{color: white; text-decoration: none;}
 .textcomprar:hover{color: white; text-decoration: none;}
+
+.botoes{
+    display: inline-flex;
+    position: relative;
+   
+    top: 130px;
+    
+    
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.6s ease;
+    
+    
+    
+  }
+
+
 
 .abavendas{
     position:relative;
