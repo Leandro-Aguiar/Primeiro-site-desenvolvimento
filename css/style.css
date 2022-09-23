@@ -489,18 +489,62 @@ p.solid2 label{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 10px;
-    
-    
+    padding-top: 10px; 
     
     
 
 }
 
+#seta1 {
+    position: relative;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px green inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    justify-content: end;
+    justify-items: center;
+    background-color: transparent;
+    bottom:  100px;
+    right: 400px;
+    
+  }
+
+  #seta2 {
+    position: relative;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px green inset;
+    border: #082E8F;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    bottom:  100px;
+    left: 400px;
+    background-color: transparent;
+
+  }
+
+#depo1{
+    display: block;
+
+
+}
+
+#depo2{
+    display: none;
+
+
+}
+
+#depo3{
+    display: none;
+
+
+}
+
 .depoimentos .figure4{
     margin-top: 30px;
-    width: 7%;
-    height: 25%;
+    width: 95px;
+    height: 95px;
     margin-bottom: -15px;
     border-radius: 50%;
     margin-left: auto;

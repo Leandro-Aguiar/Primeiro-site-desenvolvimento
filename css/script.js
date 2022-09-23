@@ -26,6 +26,7 @@ setInterval(carrossel, 4000);
   var c1 = document.getElementById('carousel1');
   var c2 = document.getElementById('carousel2');
   var c3 = document.getElementById('carousel3');
+  
 
 function promocao1() {
     const c1 = document.getElementById('carousel1');
@@ -67,5 +68,61 @@ function promocao3() {
         c3.style.display = 'block';
         c1.style.display = 'none';
         c2.style.display = 'none';
+    }
+}
+
+var d1 = document.getElementById('depo1');
+var d2 = document.getElementById('depo2');
+var d3 = document.getElementById('depo3');
+d1.style.display = 'block';
+d2.style.display = 'none';
+d3.style.display = 'none';
+
+
+
+
+function bote() {
+    
+
+    
+    if (d1.style.display === 'block') {
+        d1.style.display = 'none';
+        d3.style.display = 'block';
+        return
+    } 
+
+    if (d2.style.display === 'block') {
+        d2.style.display = 'none';
+        d1.style.display = 'block';
+        return
+    } 
+
+    if (d3.style.display === 'block') {
+        d3.style.display = 'none';
+        d2.style.display = 'block';
+        return
+    }
+}
+
+function botd() {
+    
+
+    
+    if (d1.style.display === 'block') {
+        d1.style.display = 'none';
+        d2.style.display = 'block';
+        return
+    } 
+
+    if (d2.style.display === 'block') {
+        d2.style.display = 'none';
+        d3.style.display = 'block';
+        return
+    } 
+
+    if (d3.style.display === 'block') {
+        d3.style.display = 'none';
+        d1.style.display = 'block';
+        return
     }
 }
