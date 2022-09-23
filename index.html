@@ -12,6 +12,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <script src="css/script.js" defer ></script>
+        <script src="jquery-3.6.1.min.js" ></script>
     </head>
     <body>
         <header>
@@ -139,9 +140,9 @@
 
             </div>
             
-            <div class="centro-slide" id="carouselcentro">
-            <div class="centro">
-                <div class="container-fluid">
+            
+            <div class="centro" >
+                <div class="container-fluid" id = "carousel1">
                     <div class="row">
                         
                         
@@ -207,6 +208,12 @@
                             </div>
 
                         </div>
+                        
+
+                       
+                        
+
+                        
 
                         
 
@@ -215,101 +222,192 @@
 
                     </div>
 
-                    <div class="centro2">
-                        <div class="container-fluid">
-                            <div class="row">
+                    
+                    
+                    
+                    
+                </div>
+
+                <div class="container-fluid" id = "carousel2">
+                    <div class="row">
+                        
+                        
+                        
+                        <div class="col-4">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2017/11/07/00/07/fantasy-2925250_960_720.jpg" class="figure2" alt="capa" >
+                            <div class="textcentro" ><br>
+
+                                <p>JOGO DE FANTASIA </p>
+                                <p>R$290,00 </p>
+                                <p>Até 10x de R$29,00 sem juros </p><br>
+
+                                <nav class="botao">
+
+                                    <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
+
+                                </nav>
                                 
-                                
-                                
-                                <div class="col-4">
-                                    
-                                    <img src="img/dragon.jpg" class="figure2" alt="capa" >
-                                    <div class="textcentro" ><br>
-        
-                                        <p>JOGO DE FANTASIA </p>
-                                        <p>R$290,00 </p>
-                                        <p>Até 10x de R$29,00 sem juros </p><br>
-        
-                                        <nav class="botao">
-        
-                                            <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
-        
-                                        </nav>
-                                        
-        
-                                    </div>
-        
-                                </div>
-        
-                                <div class="col-4">
-                                    
-                                    <img src="img/mobile.png" class="figure2" alt="capa" >
-                                    <div class="textcentro" ><br>
-        
-                                        <p>celular do ano </p>
-                                        <p>R$1000,00 </p>
-                                        <p>Até 10x de R$100,00 sem juros </p><br>
-        
-                                        <nav class="botao">
-        
-                                            <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
-        
-                                        </nav>
-        
-        
-                                    </div>
-        
-                                    
-        
-                                </div>
-        
-                                <div class="col-4">
-                                    
-                                    <img src="https://images.pexels.com/photos/400678/pexels-photo-400678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="figure2" alt="capa" >
-                                    <div class="textcentro"><br>
-        
-                                        <p>computador gamer </p>
-                                        <p>R$2500,00 </p>
-                                        <p>Até 10x de R$250,00 sem juros </p><br>
-        
-                                        <nav class="botao">
-        
-                                            <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
-        
-                                        </nav>
-        
-        
-                                    </div>
-        
-                                </div>
-        
-                                
-        
-                                
-          
-        
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-4">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2017/10/18/13/21/iphone-x-2864150_960_720.jpg" class="figure2" alt="capa" >
+                            <div class="textcentro" ><br>
+
+                                <p>celular do ano </p>
+                                <p>R$1000,00 </p>
+                                <p>Até 10x de R$100,00 sem juros </p><br>
+
+                                <nav class="botao">
+
+                                    <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
+
+                                </nav>
+
+
+                            </div>
+
+                            
+
+                        </div>
+
+                        <div class="col-4">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196_960_720.jpg" class="figure2" alt="capa" >
+                            <div class="textcentro"><br>
+
+                                <p>computador gamer </p>
+                                <p>R$2500,00 </p>
+                                <p>Até 10x de R$250,00 sem juros </p><br>
+
+                                <nav class="botao">
+
+                                    <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
+
+                                </nav>
+
+
                             </div>
 
                         </div>
                         
-                    </div>    
 
-                    <div class="botoes"  id="botpromo">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
+                        
+  
+
                     </div>
 
                     
-
+                    
+                    
+                    
                 </div>
 
-                
+                <div class="container-fluid" id = "carousel3">
+                    <div class="row">
+                        
+                        
+                        
+                        <div class="col-4">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2017/12/03/17/23/fantasy-2995326_960_720.jpg" class="figure2" alt="capa" >
+                            <div class="textcentro" ><br>
 
+                                <p>JOGO DE FANTASIA </p>
+                                <p>R$290,00 </p>
+                                <p>Até 10x de R$29,00 sem juros </p><br>
+
+                                <nav class="botao">
+
+                                    <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
+
+                                </nav>
+                                
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-4">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2017/10/17/18/04/iphone-7-2861605_960_720.jpg" class="figure2" alt="capa" >
+                            <div class="textcentro" ><br>
+
+                                <p>celular do ano </p>
+                                <p>R$1000,00 </p>
+                                <p>Até 10x de R$100,00 sem juros </p><br>
+
+                                <nav class="botao">
+
+                                    <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
+
+                                </nav>
+
+
+                            </div>
+
+                            
+
+                        </div>
+
+                        <div class="col-4">
+                            
+                            <img src="https://cdn.pixabay.com/photo/2020/06/07/07/23/online-learning-5269378_960_720.jpg" class="figure2" alt="capa" >
+                            <div class="textcentro"><br>
+
+                                <p>computador gamer </p>
+                                <p>R$2500,00 </p>
+                                <p>Até 10x de R$250,00 sem juros </p><br>
+
+                                <nav class="botao">
+
+                                    <a class="textcomprar" href="carrinho.html"><p>comprar</p></a>
+
+                                </nav>
+
+
+                            </div>
+
+                        </div>
+                        
+
+                       
+                        
+
+                        
+
+                        
+
+                        
+  
+
+                    </div>
+
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div class="botoes"  id="botpromo">
+                    
+                    <button class="dot" onclick="promocao1()"></button>
+                    <button class="dot" onclick="promocao2()"></button>
+                    <button class="dot" onclick="promocao3()"></button>
+                </div>   
+                
+                
                
 
             </div>
-            </div>    
+
+            
+
+              
 
             <div class="abavendas">
                 <div class="container-fluid4">
