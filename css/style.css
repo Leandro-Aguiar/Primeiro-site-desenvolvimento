@@ -32,7 +32,8 @@ Header{
     text-decoration: none;
     color: white;
     position: relative;
-    text-align: center;
+    
+    
     display: flex;
     
 
@@ -42,9 +43,9 @@ Header{
 
 .teste .abaprodutos a {
     
-    bottom: 5px;
-    margin-left: 120px;
-    margin-right: 120px;
+    bottom: 9px;
+    
+    justify-content: space-around;
     
     
     
