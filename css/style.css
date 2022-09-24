@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    border: none;
-    outline: none;
-    font-size: 100%;
-
+    
+    
 }
 
+html, body{overflow-x: hidden;}
 
 
 
@@ -307,7 +306,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 }
 
 p.solid{border-style: ridge;
-    height: 40px;
+    height: 6.88vh;
    
     border-left-width: 0px ;
     border-right-width: 0px ;
@@ -327,7 +326,7 @@ p.solid{border-style: ridge;
 
 .centro{ 
     background-color: black;
-    height: 530px;
+    height: 91.22vh;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
@@ -349,8 +348,8 @@ p.solid{border-style: ridge;
 
 .dot {
     cursor: pointer;
-    height: 2.58vh;
-    width: 1.1vw;
+    height: 15px;
+    width: 15px;
     margin: 0 10px;
     background-color: #bbb;
     border-radius: 50%;
@@ -436,7 +435,7 @@ p.solid{border-style: ridge;
 }
 
 p.solid2{
-    height: 40px;
+    height: 6.88vh;
     
     padding-top: 7px; 
     margin-bottom: 0px;
@@ -457,7 +456,7 @@ p.solid2 label{
 
 .container-fluid3 .row .col-4{
     border-style: ridge;
-    height: 530px;
+    height: 91.22vh;
     border-top: 0;
     border-right: 0px;
     border-bottom: 0px; 
@@ -494,7 +493,7 @@ p.solid2 label{
 .depoimentos{
     
     width: 100%;
-    height: 400px;
+    height: 68.85vh;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
     position: relative;
     margin-left: auto;
@@ -554,8 +553,8 @@ p.solid2 label{
 
 .depoimentos .figure4{
     margin-top: 30px;
-    width: 95px;
-    height: 95px;
+    width: 6.95vw;
+    height: 16.35vh;
     margin-bottom: -15px;
     border-radius: 50%;
     margin-left: auto;
@@ -579,7 +578,7 @@ p.solid2 label{
 .rodape{
     position: relative;
     width: 100%;
-    height: 210px;
+    height: 36.14vh;
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -599,8 +598,8 @@ p.solid2 label{
 }
 
 .figure5{
-    width: 40px;
-    height: 40px;
+    width: 2.93vw;
+    height: 6.88vh;
     margin-right: 20px;
     margin-bottom: 10px;
     
