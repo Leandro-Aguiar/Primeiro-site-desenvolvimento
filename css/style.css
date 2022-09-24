@@ -39,6 +39,8 @@ Header{
 
 }
 
+
+
 .teste .abaprodutos a {
     
     bottom: 5px;
@@ -94,7 +96,7 @@ p.inset {border-style: inset;
 
     background-color: red;
     width: auto;
-    height: 50px;
+    height: 8.60vh;
     
     background-image: linear-gradient(to bottom,#0637b4 5px,black 35px );
 }
@@ -105,7 +107,8 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 .container-fluid5{
     padding: 0;
     margin: 0;
-    
+    width: auto;
+    height: 100%;
     justify-content: center;
     
 }
@@ -165,10 +168,10 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 }
 
 .img-esquerda {
-    position: absolute;
-    width: auto;
-    width: 330px;
-    height: 427px;
+    position: relative;
+    
+    width: 24.16vw;
+    height: 100%;
     text-align: center;
     
 
@@ -187,8 +190,8 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     display: flex;
     margin: 0;
     border: 0px;
-    width: 687.5px;
-    height: 427px;
+    width: 50.32vw;
+    height: 73.5vh;
     margin: 0px;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
@@ -198,16 +201,18 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 }
 
 .carrousel img{
-    min-width: 687.5px;
-    width: 687.5px;
-    height: 427px;
+    
+    width: 51.0vw;
+    height: 73.5vh;
     
 }
 
+
+
 .carrousel .imgtexto{
     min-width: 687.5px;
-    width: 687.5px;
-    height: 427px;
+    width: 50.33px;
+    height: 73.5px;
     display: flex;
    
     
@@ -233,28 +238,34 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 
 .img-esquerda img{
     
-    width: 343.75px;
-    height: 427px;
+    width: 25.16vw;
+    height: 73.5vh;
     
 
 }
    
 .img-direita {
-    position: absolute;
-    width: 330px;
-    height: 427px;
+    position: relative;
+    height: 73.5vh;
+    width: 24.16vw;
+    
     
     
 
 } 
+
+.container-fluid5 .row .col-3{
+    height: 73.5vh;
+    
+}
     
     
 
 
 .img-direita img {
-    width: 330px;
-    height: 427px;
-    overflow: hidden;
+    width: 24.16vw;
+    height: 100%;
+    
     
 
     
@@ -307,7 +318,7 @@ p.solid{border-style: ridge;
 
 .centror{
     background-color: black;
-    height: 530px;
+    height: 91.22vh;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
     position: relative;
@@ -338,8 +349,8 @@ p.solid{border-style: ridge;
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 2.58vh;
+    width: 1.1vw;
     margin: 0 10px;
     background-color: #bbb;
     border-radius: 50%;
@@ -369,8 +380,8 @@ p.solid{border-style: ridge;
 .figure2{
     position: relative;
     top: 50px;
-    width: 214px;
-    height: 176px;
+    width: 15.67vw;
+    height: 30.3vh;
     border-style: solid;
     
 }
@@ -392,7 +403,7 @@ p.solid{border-style: ridge;
     background-color: rgb(9, 99, 9);
     color: white;
     width: 40%;
-    height: 40px;
+    height: 6.884vh;
     padding-top: 8px;
     text-transform: uppercase;
     text-decoration: none;
