@@ -613,6 +613,8 @@ p.solid2 label{
 
 }
 
+#imgguerreiroc{display: none;}
+
 @media screen and (max-width: 450px) {
     #cadcompr {
         display: none;
@@ -632,22 +634,62 @@ p.solid2 label{
         
     }
     
-    .menu {
-        display: none;
-
-        position: absolute;
-        top: 80px;
-        right: 0px;
-
-        height: 400px;
-
+    .container-fluid5 .row{
         flex-direction: column;
-        justify-content: space-around;
-        background-color: #1E1C21;
-        align-items: center;
-
+        
+    }
+    #imgguerreiro{display: none;}
+    
+    .container-fluid5 .row .col-6{
+        width: 454px;
+        
     }
 
+    #img-carrousel .imgtexto img {
+        width: 454px;
+        
+    }
+
+    
+
+    #img-carrousel .imgtexto h3{
+        position: absolute;
+        text-align: center;
+        
+        
+    }
+
+    #imgcel{display: flex;}
+
+    #imgguerreiroc{
+        display: flex;
+        width: 202px;
+    }
+
+    #imgguerreiroc img{
+        display: flex;
+        width: 202px;
+    }
+    
+    .img-direita{
+        display: flex;
+        width: 202px;
+    }
+
+    .img-direita img{
+        display: flex;
+        width: 229px;
+    }
+
+    
+
+    .container-fluid5 .row .col-3{
+        position: relative;
+        text-align: center;
+        
+    }
+        
+}
 
 
 
