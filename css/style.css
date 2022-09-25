@@ -634,38 +634,36 @@ p.solid2 label{
         
     }
     
-    .container-fluid5{
-        margin: 0;
-    }
+    .container-fluid5
 
     .container-fluid5 .row{
-        position: relative;
         flex-direction: column;
-        height: 620px;
+        height: 600px;
         margin: 0;
         padding: 0;
-        width: 450px;
-        height: 460px;
+        width: 100%;
+        position: relative;
         
     }
     #imgguerreiro{display: none;}
     
     .container-fluid5 .row .col-6{
-        width: 450px;
-        height: 218px;
+        width: 100%;
+        position: relative;
         
         
     }
 
     #img-carrousel .imgtexto img {
-        width: 450px;
+        width: 70%;
+        position: relative;
         
     }
 
     
 
     #img-carrousel .imgtexto h3{
-        
+        position: absolute;
         text-align: center;
         
         
@@ -675,30 +673,25 @@ p.solid2 label{
 
     #imgguerreiroc{
         display: flex;
-        width: 220px;
-        height: 250px;
+        width: 225px;
     }
 
     #imgguerreiroc img{
         display: flex;
-        width: 220px;
-        height: 250px;
+        width: 225px;
     }
     
     .img-direita{
         display: flex;
-        width: 220px;
-        height: 250px;
+        width: 235px;
     }
 
     .img-direita img{
         display: flex;
-        width: 220px;
-        height: 250px;
+        width: 235px;
     }
 
     .textcomprar{
-        position: absolute;
         display: none;
     }
     
