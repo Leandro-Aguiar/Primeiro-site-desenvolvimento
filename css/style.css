@@ -638,11 +638,12 @@ p.solid2 label{
 
     .container-fluid5 .row{
         flex-direction: column;
-        height: 600px;
+        height: 350px;
         margin: 0;
         padding: 0;
         width: 100%;
         position: relative;
+        
         
     }
     #imgguerreiro{display: none;}
@@ -650,12 +651,14 @@ p.solid2 label{
     .container-fluid5 .row .col-6{
         width: 100%;
         position: relative;
-        
+        height: 190px;
+        overflow-y: hidden;
         
     }
 
     #img-carrousel .imgtexto img {
         width: 70%;
+        height: 190px;
         position: relative;
         
     }
@@ -674,21 +677,26 @@ p.solid2 label{
     #imgguerreiroc{
         display: flex;
         width: 225px;
+        height: 190px;
+        
     }
 
     #imgguerreiroc img{
         display: flex;
         width: 225px;
+        height: 190px;
     }
     
     .img-direita{
         display: flex;
         width: 235px;
+        height: 190px;
     }
 
     .img-direita img{
         display: flex;
         width: 235px;
+        height: 190px;
     }
 
     .textcomprar{
