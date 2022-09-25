@@ -131,6 +131,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     border-style:solid;
     border-radius: 20px;
     left: 12px;
+    font-size: 1.83vw;
     background-color: rgb(9, 99, 9);
     
     
@@ -162,7 +163,8 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     border-style: solid;
     border-radius: 20px;
     background-color: rgb(9, 99, 9);
-    
+    font-size: 1.83vw;
+
     
     
 }
@@ -402,11 +404,12 @@ p.solid{border-style: ridge;
     border-radius: 10px;
     background-color: rgb(9, 99, 9);
     color: white;
-    width: 40%;
+    width: 12.48vw;
     height: 40px;
     padding-top: 8px;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: medium;
     
     
 }
