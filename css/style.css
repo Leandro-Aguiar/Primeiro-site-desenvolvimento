@@ -613,9 +613,23 @@ p.solid2 label{
 
 }
 
-@media screen and (max-width: 1100px) {
-    .cabecalho {
-        position: relative;
+@media screen and (max-width: 450px) {
+    #cadcompr {
+        display: none;
+    }
+
+    #busca{
+        display: none;
+    }
+
+    #barras{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        text-align: right;
+        
+        
+        
     }
     
     .menu {
