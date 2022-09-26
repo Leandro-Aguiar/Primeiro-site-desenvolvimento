@@ -11,11 +11,11 @@ html, body{overflow-x: hidden;}
 
 
 Header{
-    
+    background-color: black ;
     color: white;
     text-transform: uppercase;
     background-image: linear-gradient(to bottom,black 20%,#082E8F );
-    overflow-x: hidden;
+    
     
     
 }
@@ -131,7 +131,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     border-style:solid;
     border-radius: 20px;
     left: 12px;
-    font-size: 1.5em;
+    font-size: 25px;
     background-color: rgb(9, 99, 9);
     
     
@@ -163,7 +163,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     border-style: solid;
     border-radius: 20px;
     background-color: rgb(9, 99, 9);
-    font-size: 1.5em;
+    font-size: 25px;
 
     
     
@@ -405,7 +405,7 @@ p.solid{border-style: ridge;
     background-color: rgb(9, 99, 9);
     color: white;
     width: 170.5px;
-    max-height: 40px;
+    height: 40px;
     padding-top: 8px;
     text-transform: uppercase;
     text-decoration: none;
