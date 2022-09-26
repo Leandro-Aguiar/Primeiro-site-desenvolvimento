@@ -6,8 +6,13 @@
     
 }
 
-html, body{overflow-x: hidden;}
 
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+    
+}
 
 
 Header{
@@ -15,7 +20,7 @@ Header{
     color: white;
     text-transform: uppercase;
     background-image: linear-gradient(to bottom,black 20%,#082E8F );
-    overflow-x: none ;
+    
     
     
 }
@@ -127,10 +132,10 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     justify-content: center;
     position: relative;
     text-transform: uppercase;
-    bottom: 50px;
+    bottom: 8.60vh;
     border-style:solid;
     border-radius: 20px;
-    left: 12px;
+    
     font-size: 1.83vw;
     background-color: rgb(9, 99, 9);
     
@@ -159,20 +164,20 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     justify-content: center;
     position: relative;
     text-transform: uppercase;
-    bottom: 50px;
+    bottom: 8.60vh;
     border-style: solid;
     border-radius: 20px;
     background-color: rgb(9, 99, 9);
     font-size: 1.83vw;
-
+    
     
     
 }
 
 .img-esquerda {
-    position: relative;
+    position: absolute;
     
-    width: 24.16vw;
+    width: 24.72vw;
     height: 100%;
     text-align: center;
     
@@ -240,7 +245,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 
 .img-esquerda img{
     
-    width: 26.16vw;
+    width: 24.72vw;
     height: 73.5vh;
     
 
@@ -249,7 +254,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 .img-direita {
     position: relative;
     height: 73.5vh;
-    width: 24.16vw;
+    width: 24.72vw;
     
     
     
@@ -265,7 +270,7 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 
 
 .img-direita img {
-    width: 24.16vw;
+    width: 24.72vw;
     height: 100%;
     
     
