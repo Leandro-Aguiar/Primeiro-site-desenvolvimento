@@ -639,11 +639,11 @@ p.solid2 label{
         
     }
     
-    .container-fluid5
+    .container-fluid5{max-height: 420;}
 
     .container-fluid5 .row{
         flex-direction: column;
-        height: 350px;
+        height: 410px;
         margin: 0;
         padding: 0;
         width: 100%;
@@ -656,14 +656,14 @@ p.solid2 label{
     .container-fluid5 .row .col-6{
         width: 100%;
         position: relative;
-        height: 190px;
+        height: 230px;
         overflow-y: hidden;
         
     }
 
     #img-carrousel .imgtexto img {
         width: 70%;
-        height: 190px;
+        height: 230px;
         position: relative;
         
     }
@@ -680,28 +680,29 @@ p.solid2 label{
     #imgcel{display: flex;}
 
     #imgguerreiroc{
+        position: relative;
         display: flex;
         width: 225px;
-        height: 140px;
+        height: 180px;
         
     }
 
     #imgguerreiroc img{
         display: flex;
         width: 225px;
-        height: 140px;
+        height: 180px;
     }
     
     .img-direita{
         display: flex;
-        width: 235px;
-        height: 140px;
+        width: 225px;
+        height: 180px;
     }
 
     .img-direita img{
         display: flex;
-        width: 235px;
-        height: 140px;
+        width: 225px;
+        height: 180px;
     }
 
     .textcomprar{
@@ -712,6 +713,7 @@ p.solid2 label{
     .container-fluid5 .row .col-3{
         position: relative;
         text-align: center;
+        height: 30.98vh;
         
     }
         
