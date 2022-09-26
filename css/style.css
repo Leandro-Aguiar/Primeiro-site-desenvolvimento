@@ -634,14 +634,19 @@ p.solid2 label{
         
     }
     
-    .container-fluid5
+    .container-fluid5{
+        overflow: hidden;
+        width: 450px;
+        height: 350px;
+
+    }
 
     .container-fluid5 .row{
         flex-direction: column;
         height: 350px;
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 450px;
         position: relative;
         
         
@@ -649,16 +654,16 @@ p.solid2 label{
     #imgguerreiro{display: none;}
     
     .container-fluid5 .row .col-6{
-        width: 100%;
+        width: 450px;
         position: relative;
-        height: 190px;
+        height: 220px;
         overflow-y: hidden;
         
     }
 
     #img-carrousel .imgtexto img {
-        width: 70%;
-        height: 190px;
+        width: 450px;
+        height: 220px;
         position: relative;
         
     }
@@ -683,7 +688,7 @@ p.solid2 label{
 
     #imgguerreiroc img{
         display: flex;
-        width: 225px;
+        width: 10px;
         height: 140px;
     }
     
