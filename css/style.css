@@ -11,11 +11,11 @@ html, body{overflow-x: hidden;}
 
 
 Header{
-    background-color: black ;
+    
     color: white;
     text-transform: uppercase;
     background-image: linear-gradient(to bottom,black 20%,#082E8F );
-    
+    overflow-x: none ;
     
     
 }
