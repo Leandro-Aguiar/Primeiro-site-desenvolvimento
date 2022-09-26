@@ -639,7 +639,7 @@ p.solid2 label{
         
     }
     
-    .container-fluid5{max-height: 420;}
+    .container-fluid5{max-height: 420px;}
 
     .container-fluid5 .row{
         flex-direction: column;
@@ -682,27 +682,27 @@ p.solid2 label{
     #imgguerreiroc{
         position: relative;
         display: flex;
-        width: 225px;
-        height: 180px;
+        width: 16.47vw;
+        height: 30.98vh;
         
     }
 
     #imgguerreiroc img{
         display: flex;
-        width: 225px;
-        height: 180px;
+        width: 16.47vw;
+        height: 30.98vh;
     }
     
     .img-direita{
         display: flex;
-        width: 225px;
-        height: 180px;
+        width: 16.47vw;
+        height: 30.98vh;
     }
 
     .img-direita img{
         display: flex;
-        width: 225px;
-        height: 180px;
+        width: 16.47vw;
+        height: 30.98vh;
     }
 
     .textcomprar{
@@ -714,7 +714,7 @@ p.solid2 label{
         position: relative;
         text-align: center;
         height: 30.98vh;
-        
+        width: 16.47vw;
     }
         
 }
