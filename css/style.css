@@ -581,12 +581,24 @@ p.solid2 label{
     text-align: justify;
 }
 
+.container-fluid6{
+    width: 98.9vw;
+    height: 36.144vh;
+
+}
+
+.container-fluid6 .row g-0 .col-4{
+    width: 98.9vw;
+    height: 36.144vh;
+
+}
+
 
 
 .rodape{
     position: relative;
-    width: 100%;
-    height: 210px;
+    width: 98.9vw;
+    height: 36.144vh;
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -682,27 +694,27 @@ p.solid2 label{
     #imgguerreiroc{
         position: relative;
         display: flex;
-        width: 16.47vw;
-        height: 30.98vh;
+        width: 225px;
+        height: 180px;
         
     }
 
     #imgguerreiroc img{
         display: flex;
-        width: 16.47vw;
-        height: 30.98vh;
+        width: 225px;
+        height: 180px;
     }
     
     .img-direita{
         display: flex;
-        width: 16.47vw;
-        height: 30.98vh;
+        width: 225px;
+        height: 180px;
     }
 
     .img-direita img{
         display: flex;
-        width: 16.47vw;
-        height: 30.98vh;
+        width: 225px;
+        height: 180px;
     }
 
     .textcomprar{
@@ -714,7 +726,7 @@ p.solid2 label{
         position: relative;
         text-align: center;
         height: 30.98vh;
-        width: 16.47vw;
+        
     }
         
 }
