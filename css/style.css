@@ -585,8 +585,8 @@ p.solid2 label{
 
 .rodape{
     position: relative;
-    width: 98.9vw;
-    height: 210px;
+    width: 100%;
+    /* height: 210px; */
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -672,7 +672,7 @@ p.solid2 label{
     
 
     #img-carrousel .imgtexto h3{
-        position: absolute;
+        position: relative;
         text-align: center;
         
         
@@ -683,27 +683,26 @@ p.solid2 label{
     #imgguerreiroc{
         position: relative;
         display: flex;
-        width: 200px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         
     }
 
     #imgguerreiroc img{
         display: flex;
-        width: 200px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     
     .img-direita{
         display: flex;
-        width: 200px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .img-direita img{
-        display: flex;
-        width: 200px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .textcomprar{
