@@ -707,7 +707,31 @@ p.solid2 label{
     }
 
     .textcomprar{
-        display: none;
+        display: flex;
+        position: absolute;
+        bottom: -7.44vh;
+        
+        
+    }
+    .container-fluid5 .row .col-3 .img-esquerda h4{
+        font-size: 0.9em;
+        left: 5.60vw;
+        
+    }
+
+    .container-fluid5 .row .col-3 .img-direita h4{
+        font-size: 0.9em;
+        left: 6.50vw;
+        
+    }
+
+
+    .textcomprar h4{
+        display: flex;
+        
+        width: 37.445vw;
+        
+        
     }
     
 
