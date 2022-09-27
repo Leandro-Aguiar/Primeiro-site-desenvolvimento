@@ -402,6 +402,8 @@ p.solid{border-style: ridge;
 
 }
 
+
+
 .botao{
     position: relative;
     display: inline-block;   
@@ -756,7 +758,16 @@ p.solid2 label{
         height: 30.98vh;
         
     }
-        
+       
+    
+    .figure2{
+
+
+    }
+
+
+
+
 }
 
 
