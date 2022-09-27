@@ -640,7 +640,7 @@ p.solid2 label{
         
     }
     
-    .container-fluid5{}
+    
 
     .container-fluid5 .row{
         flex-direction: column;
@@ -656,7 +656,8 @@ p.solid2 label{
     
     .container-fluid5 .row .col-6{
         width: 100%;
-        position: relative;
+        margin: 0;
+        padding: 0;
         height: 210px;
         overflow-y: hidden;
         
@@ -673,9 +674,22 @@ p.solid2 label{
 
     #img-carrousel .imgtexto h3{
         position: absolute;
+        
+    text-align: center;
+        
+        
+        
+        
+    }
+
+    .carrousel .imgtexto{
         text-align: center;
         
         
+        
+        display: flex;
+        
+    
     }
 
     #imgcel{display: flex;}
