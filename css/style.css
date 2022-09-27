@@ -583,13 +583,13 @@ p.solid2 label{
 
 .container-fluid6{
     width: 98.9vw;
-    height: 36.144vh;
+    height: 210px;
 
 }
 
 .container-fluid6 .row g-0 .col-4{
     width: 98.9vw;
-    height: 36.144vh;
+    height: 210px;
 
 }
 
@@ -598,7 +598,7 @@ p.solid2 label{
 .rodape{
     position: relative;
     width: 98.9vw;
-    height: 36.144vh;
+    height: 210px;
     text-transform: uppercase;
     color: white;
     text-align: center;
