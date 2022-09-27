@@ -707,20 +707,9 @@ p.solid2 label{
     }
 
     .textcomprar{
-        display: inline-block;
-        position: absolute;
-        bottom: 0;
-        left: 6.93vw ;
-        width: 35.98vw;
-        height: 2.72vh;
-        
-        
+        display: none;
     }
     
-    .textcomprar h4{
-        
-        
-    }
 
     .container-fluid5 .row .col-3{
         position: relative;
