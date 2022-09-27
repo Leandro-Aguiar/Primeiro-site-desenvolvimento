@@ -708,7 +708,12 @@ p.solid2 label{
 
     .textcomprar{
         display: none;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
     }
+    
     
 
     .container-fluid5 .row .col-3{
