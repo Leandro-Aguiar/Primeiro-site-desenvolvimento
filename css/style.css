@@ -426,6 +426,8 @@ p.solid{border-style: ridge;
 .textcomprar{color: white; text-decoration: none;}
 .textcomprar:hover{color: white; text-decoration: none;}
 
+.textcomprar0{color: white; text-decoration: none;}
+.textcomprar0:hover{color: white; text-decoration: none;}
 
 
 
@@ -730,6 +732,16 @@ p.solid2 label{
         
         
     }
+
+    .textcomprar0{
+        display: flex;
+        position: absolute;
+        bottom: -7.44vh;
+        
+        
+    }
+
+
     .container-fluid5 .row .col-3 .img-esquerda h4{
         font-size: 0.9em;
         left: 5.60vw;
@@ -744,6 +756,14 @@ p.solid2 label{
 
 
     .textcomprar h4{
+        display: flex;
+        
+        width: 37.445vw;
+        
+        
+    }
+
+    .textcomprar0 h4{
         display: flex;
         
         width: 37.445vw;
@@ -771,7 +791,32 @@ p.solid2 label{
 
     }
 
+    .botao{
+        position: relative;
+    display: inline-block;   
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(9, 99, 9);
+    color: white;
+    width: 21.48vw;
+    height: 35px;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: smaller;
+    }
 
+    .textcomprar{
+        top: 2.80vh;
+        left: 1.80vw;
+    }
+
+    
+
+
+    .dot{
+        margin-top: 8.16vh;
+    }
 }
 
 
