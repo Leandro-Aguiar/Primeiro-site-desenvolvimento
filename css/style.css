@@ -771,7 +771,10 @@ p.solid2 label{
 
     }
 
-
+    .figure3{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 
