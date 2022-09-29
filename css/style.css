@@ -775,6 +775,18 @@ p.solid2 label{
         width: 100px;
         height: 100px;
     }
+    
+    .botao{
+        width: 25.59vw;
+        
+    }
+
+    .botao .textcomprar p{
+        margin-left: 1.80vw;
+        margin-bottom: 9.50vh;
+    }
+
+
 }
 
 
