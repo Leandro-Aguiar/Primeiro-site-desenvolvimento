@@ -793,22 +793,13 @@ p.solid2 label{
         margin-bottom: 8.40vh;
     }
 
-    #depo1 img{
-        width: 10vw;
-        height: 10vh;
+    #seta1{
+        top: 100px;
     }
 
-    #depo2 img{
-        width: 10vw;
-        height: 10vh;
+    #seta2{
+        top: 100px;
     }
-
-    #depo3 img{
-        width: 10vw;
-        height: 10vh;
-    }
-
-    
 
 
 }
