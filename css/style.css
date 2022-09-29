@@ -766,8 +766,10 @@ p.solid2 label{
 
     }
 
-    .textcentro p{
+    
 
+    .textcentro p{
+        
         font-size: 0.813em;
         
 
@@ -780,13 +782,13 @@ p.solid2 label{
     
     .botao{
         width: 25.59vw;
-        
+        height: 10vh;
     }
     
 
     .botao .textcomprar p{
         margin-left: 3.80vw;
-        margin-bottom: 6.50vh;
+        margin-bottom: 9.00vh;
     }
 
 
