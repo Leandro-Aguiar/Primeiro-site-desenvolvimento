@@ -784,6 +784,7 @@ p.solid2 label{
     .botao{
         width: 25.59vw;
         height: 5vh;
+        /* position: absolute; */
     }
     
 
