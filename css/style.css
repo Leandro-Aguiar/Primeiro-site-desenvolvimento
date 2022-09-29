@@ -793,7 +793,17 @@ p.solid2 label{
         margin-bottom: 8.40vh;
     }
 
-    .figure4{
+    #depo1 img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #depo2 img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #depo3 img{
         width: 30px;
         height: 30px;
     }
