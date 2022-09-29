@@ -794,26 +794,26 @@ p.solid2 label{
     }
 
     #seta1{
-        bottom: 100px;
+        top: 100px;
     }
 
     #seta2{
-        bottom: 100px;
+        top: 100px;
     }
 
     #depo1 img{
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
     }
 
     #depo2 img{
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
     }
 
     #depo2 img{
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
     }
 
 }
