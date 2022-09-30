@@ -816,22 +816,21 @@ p.solid2 label{
         height: 70px;
     }
 
+    .rodape .container-fluid6 .row{
+        flex-direction: column;
+    }
+
+
+    .rodape .container-fluid6 .row .col-4{
+        
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 110px;
+        margin-right: 180px;
+        
+    }
+
+
 }
-
-
-
-
-
-
-
-    
- 
-
-
-    
-
-
-
-
-
-
