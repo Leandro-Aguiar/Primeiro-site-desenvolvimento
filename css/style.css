@@ -821,16 +821,26 @@ p.solid2 label{
     }
 
 
-    .rodape .container-fluid6 .row .col-4{
+    .rodape .container-fluid6 .row .col-4 {
         
         text-align: center;
         justify-content: center;
         justify-items: center;
         align-items: center;
         margin-left: 110px;
-        margin-right: 180px;
+        margin-right: 110px;
         
     }
 
+    .rodape .container-fluid6 .row .col-4 .links p{
+        
+        
+        
+        
+    }
 
+    .figure5{
+        width: 16px;
+        height: 16px;
+    }
 }
