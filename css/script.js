@@ -125,6 +125,10 @@ function botd() {
         d1.style.display = 'block';
         return
     }
+
+
+
+
 }
 
 

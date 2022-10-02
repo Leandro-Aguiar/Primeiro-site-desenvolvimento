@@ -621,12 +621,25 @@ p.solid2 label{
 
 }
 
+#rescel{
+    display: none;
+}
+
 #imgguerreiroc{display: none;}
 
 @media screen and (max-width: 450px) {
     #cadcompr {
         display: none;
     }
+
+    #respc{
+        display: none;
+    }
+
+    #rescel{
+        display: block;
+    }
+
 
     #busca{
         display: none;
@@ -840,7 +853,7 @@ p.solid2 label{
     }
 
     .figure5{
-        width: 16px;
-        height: 16px;
+        width: 22px;
+        height: 22px;
     }
 }
