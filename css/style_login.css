@@ -73,6 +73,10 @@ p.inset {border-style: inset;
     
 }
 
+.home{
+    text-decoration: none;
+    color: white;
+}
 
 
 .carrinho{
@@ -121,12 +125,16 @@ main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
     text-transform: capitalize;
 }
 
-form{border-style: solid;
+form{border-style: inset;
 margin-right: 250px;
 margin-left: 250px;
 padding-top: 50px;
 padding-bottom: 50px;
+background-color: darkslategrey;
+border-color: red;
 }
+
+
 .cadastro{text-decoration: none;
     
     
