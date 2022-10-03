@@ -114,22 +114,22 @@ p.inset {border-style: inset;
 main{background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );}
 
 .container{
-    height: 500px;
+    height: 86.06vh;
     color: white;
     display:block;
-    padding-top: 85px;
+    padding-top: 14.63vh;
     
     
-    padding-bottom: 200px;
+    padding-bottom: 34.42vh;
     text-align: center;
     text-transform: capitalize;
 }
 
 form{border-style: inset;
-margin-right: 250px;
-margin-left: 250px;
-padding-top: 50px;
-padding-bottom: 50px;
+margin-right: 8.30vw;
+margin-left: 8.30vw;
+padding-top: 8.61vh;
+padding-bottom: 8.61vh;
 background-color: darkslategrey;
 border-color: red;
 }
@@ -185,6 +185,10 @@ border-color: red;
 #imgguerreiroc{display: none;}
 
 @media screen and (max-width: 450px) {
+
+    .container{
+        height: 136.06vh;
+    }
     #cadcompr {
         display: none;
     }
@@ -213,7 +217,4 @@ border-color: red;
     }
     
     
-    
-
-   
 }
