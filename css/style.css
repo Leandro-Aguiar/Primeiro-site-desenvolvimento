@@ -626,10 +626,27 @@ p.solid2 label{
 }
 
 #imgguerreiroc{display: none;}
+#menucel{display: none;}
 
 @media screen and (max-width: 450px) {
     #cadcompr {
         display: none;
+        position: absolute;
+        
+        
+        height: 80px;
+        
+    }
+
+    .login{margin: 0;}
+
+    #menucel{
+        display: none;
+        position: relative;
+        
+        width: 100%;
+        
+        
     }
 
     #respc{
@@ -643,6 +660,10 @@ p.solid2 label{
 
     #busca{
         display: none;
+        position: relative;
+        background-color: darkgreen;
+
+        
     }
 
     #barras{
