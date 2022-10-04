@@ -11,3 +11,22 @@ function btenviar(){
 
 
 }
+
+
+function mostrarlogin(){
+   var m1 = document.getElementById('menucel');
+   var t1 = document.getElementById('teste1');
+   var b1 = document.getElementById('busca1');
+   var l1 = document.getElementById('cadcompr1');
+
+    
+   t1.style.display = 'none';
+   m1.style.display = 'block';
+   b1.style.display = 'block';
+   l1.style.display = 'block';
+   
+
+
+
+
+}

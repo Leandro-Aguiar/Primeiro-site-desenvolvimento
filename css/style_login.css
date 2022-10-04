@@ -137,7 +137,7 @@ border-color: red;
 
 
 .cadastro{text-decoration: none;
-    
+    color: white;
     
 }
 
@@ -181,7 +181,7 @@ border-color: red;
     display: none;
 }
 
-
+#menucel{display: none;}
 
 #imgguerreiroc{display: none;}
 
@@ -192,6 +192,21 @@ border-color: red;
     }
     #cadcompr {
         display: none;
+        position: absolute;
+        
+        
+        height: 80px;
+        
+    }
+    .login{margin: 0;}
+
+    #menucel{
+        display: none;
+        position: relative;
+        
+        width: 100%;
+        
+        
     }
 
     #respc{
@@ -205,6 +220,10 @@ border-color: red;
 
     #busca{
         display: none;
+        position: relative;
+        background-color: darkgreen;
+
+        
     }
 
     #barras{
