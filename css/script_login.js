@@ -19,11 +19,25 @@ function mostrarlogin(){
    var b1 = document.getElementById('busca1');
    var l1 = document.getElementById('cadcompr1');
 
-    
-   t1.style.display = 'none';
-   m1.style.display = 'block';
-   b1.style.display = 'block';
-   l1.style.display = 'block';
+   if (m1.style.display === 'none')
+   {
+
+       t1.style.display = 'none';
+       m1.style.display = 'block';
+       b1.style.display = 'block';
+       l1.style.display = 'block';
+
+   } else{
+
+       t1.style.display = 'block';
+       m1.style.display = 'none';
+       b1.style.display = 'none';
+       l1.style.display = 'none';
+
+
+
+   }
+   
    
 
 
