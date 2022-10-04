@@ -187,7 +187,7 @@ border-color: red;
 @media screen and (max-width: 450px) {
 
     .container{
-        height: 36.06vh;
+        height: 50.06vh;
     }
     #cadcompr {
         display: none;
