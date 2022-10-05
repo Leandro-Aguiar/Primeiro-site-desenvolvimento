@@ -325,7 +325,7 @@ p.solid{border-style: ridge;
 
 .centror{
     background-color: black;
-    height: 139.22vh;
+    height: 91.22vh;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
     position: relative;
@@ -334,7 +334,7 @@ p.solid{border-style: ridge;
 
 .centro{ 
     background-color: black;
-    height: 159.22vh;
+    height: 91.22vh;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
