@@ -628,6 +628,120 @@ p.solid2 label{
 #imgguerreiroc{display: none;}
 #menucel{display: none;}
 
+@media screen and (max-width: 800px) {
+
+
+    .centror{
+        background-color: black;
+        height: 61.22vh;
+        text-align: center;
+        background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+        position: relative;
+    
+    }
+    
+    .centro{ 
+        background-color: black;
+        height: 61.22vh;
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+        position: relative;
+        display: block;
+        
+    
+    }
+
+    .container-fluid3 .row .col-4{
+        height: 61.22vh;
+
+    }
+
+    .figure2{
+        position: relative;
+        top: 50px;
+        width: 15.67vw;
+        height: 15.3vh;
+        border-style: solid;
+        
+    }
+
+    .figure3{
+        position: relative;
+        top: 50px;
+        width: 15.67vw;
+        height: 15.3vh;
+        border-style: solid;
+        
+    }
+
+    .carrousel img{
+    
+        width: 52.0vw;
+        height: 53.5vh;
+        
+    }
+
+    .carrousel{
+        display: flex;
+        margin: 0;
+        border: 0px;
+        width: 50.32vw;
+        height: 53.5vh;
+        margin: 0px;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+        
+        position: relative;
+        
+    }
+
+    .img-esquerda img{
+    
+        width: 24.72vw;
+        height: 53.5vh;
+        
+    
+    }
+
+    .img-direita {
+        position: relative;
+        height: 53.5vh;
+        width: 24.72vw;
+        
+        
+        
+    
+    } 
+
+    .container-fluid5{
+        height: 53.5vh;
+    }
+
+    .figure5{
+        width: 3.93vw;
+        height: 3.93vh;
+        margin-right: 1.464vw;
+        margin-bottom: 1.72vh;
+        
+    }
+
+    .depoimentos .figure4{
+        margin-top: 30px;
+        width: 10.95vw;
+        height: 10.35vh;
+        margin-bottom: -15px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        
+    }
+
+}
+
+
 @media screen and (max-width: 450px) {
     #cadcompr {
         display: none;
@@ -880,116 +994,3 @@ p.solid2 label{
 
 
 }
-
-@media screen and (min-width: 450px max-width: 800px) {
-
-
-    .centror{
-        background-color: black;
-        height: 61.22vh;
-        text-align: center;
-        background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
-        position: relative;
-    
-    }
-    
-    .centro{ 
-        background-color: black;
-        height: 61.22vh;
-        width: 100%;
-        text-align: center;
-        background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
-        position: relative;
-        display: block;
-        
-    
-    }
-
-    .container-fluid3 .row .col-4{
-        height: 61.22vh;
-
-    }
-
-    .figure2{
-        position: relative;
-        top: 50px;
-        width: 15.67vw;
-        height: 15.3vh;
-        border-style: solid;
-        
-    }
-
-    .figure3{
-        position: relative;
-        top: 50px;
-        width: 15.67vw;
-        height: 15.3vh;
-        border-style: solid;
-        
-    }
-
-    .carrousel img{
-    
-        width: 52.0vw;
-        height: 53.5vh;
-        
-    }
-
-    .carrousel{
-        display: flex;
-        margin: 0;
-        border: 0px;
-        width: 50.32vw;
-        height: 53.5vh;
-        margin: 0px;
-        transition: transform 0.5s ease-in-out;
-        transform: translateX(0);
-        
-        position: relative;
-        
-    }
-
-    .img-esquerda img{
-    
-        width: 24.72vw;
-        height: 53.5vh;
-        
-    
-    }
-
-    .img-direita {
-        position: relative;
-        height: 53.5vh;
-        width: 24.72vw;
-        
-        
-        
-    
-    } 
-
-    .container-fluid5{
-        height: 53.5vh;
-    }
-
-    .figure5{
-        width: 3.93vw;
-        height: 3.93vh;
-        margin-right: 1.464vw;
-        margin-bottom: 1.72vh;
-        
-    }
-
-    .depoimentos .figure4{
-        margin-top: 30px;
-        width: 10.95vw;
-        height: 10.35vh;
-        margin-bottom: -15px;
-        border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        
-        
-    }
-
-    }
