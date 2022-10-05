@@ -886,7 +886,7 @@ p.solid2 label{
 
     .centror{
         background-color: black;
-        height: 109.22vh;
+        height: 81.22vh;
         text-align: center;
         background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
         position: relative;
@@ -895,7 +895,7 @@ p.solid2 label{
     
     .centro{ 
         background-color: black;
-        height: 109.22vh;
+        height: 81.22vh;
         width: 100%;
         text-align: center;
         background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
