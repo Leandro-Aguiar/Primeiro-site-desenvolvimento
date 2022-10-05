@@ -910,4 +910,22 @@ p.solid2 label{
 
     }
 
+    .figure2{
+        position: relative;
+        top: 50px;
+        width: 15.67vw;
+        height: 15.3vh;
+        border-style: solid;
+        
+    }
+
+    .figure3{
+        position: relative;
+        top: 50px;
+        width: 15.67vw;
+        height: 15.3vh;
+        border-style: solid;
+        
+    }
+
     }
