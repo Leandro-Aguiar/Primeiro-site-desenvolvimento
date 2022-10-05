@@ -325,7 +325,7 @@ p.solid{border-style: ridge;
 
 .centror{
     background-color: black;
-    height: 91.22vh;
+    height: 530px;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
     position: relative;
@@ -334,7 +334,7 @@ p.solid{border-style: ridge;
 
 .centro{ 
     background-color: black;
-    height: 91.22vh;
+    height: 530px;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
@@ -877,4 +877,33 @@ p.solid2 label{
         width: 22px;
         height: 22px;
     }
+
+
+    @media screen and (max-width: 600px) {
+
+
+    .centror{
+        background-color: black;
+        height: 630px;
+        text-align: center;
+        background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+        position: relative;
+    
+    }
+    
+    .centro{ 
+        background-color: black;
+        height: 630px;
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to right,#142B77  ,black 50% ,#142B77 );
+        position: relative;
+        display: block;
+        
+    
+    }
+
+
+    }
+
 }
