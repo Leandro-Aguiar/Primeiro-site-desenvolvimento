@@ -33,9 +33,9 @@ function promocao1() {
     
     
        if (c1.style.display === 'none') {
-           c1.style.display = 'block';
-           c2.style.display = 'none';
-           c3.style.display = 'none';
+           $(c1).show();
+           $(c2).hide();
+           $(c3).hide();
        } else {
            c1.style.display = 'block';
            c2.style.display = 'none';
