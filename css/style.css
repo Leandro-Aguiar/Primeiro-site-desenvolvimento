@@ -657,28 +657,6 @@ p.solid2 label{
         display: block;
     }
 
-    .img-esquerda img{
-    
-        width: 24.72vw;
-        height: 63.5vh;
-        
-    
-    }
-
-    .img-direita {
-        position: relative;
-        height: 63.5vh;
-        width: 24.72vw;
-        
-        
-        
-    
-    } 
-
-    .container-fluid5{
-        height: 63.5vh;
-    }
-
 
 
     #busca{
