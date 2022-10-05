@@ -881,7 +881,7 @@ p.solid2 label{
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 450px max-width: 800px) {
 
 
     .centror{
