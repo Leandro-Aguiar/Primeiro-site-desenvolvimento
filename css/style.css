@@ -877,28 +877,4 @@ p.solid2 label{
         width: 22px;
         height: 22px;
     }
-
-    @media screen and (max-width: 800px) {
-
-    .centro{
-
-        height: 91.22vh;
-
-
-    }
-
-    .centror{
-        
-        height: 91.22vh;
-        
-    
-    }
-
-
-
-    }
-
-
-
-
 }
