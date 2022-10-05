@@ -971,4 +971,25 @@ p.solid2 label{
         height: 53.5vh;
     }
 
+    .figure5{
+        width: 3.93vw;
+        height: 3.93vh;
+        margin-right: 1.464vw;
+        margin-bottom: 1.72vh;
+        
+    }
+
+    .depoimentos .figure4{
+        margin-top: 30px;
+        width: 10.95vw;
+        height: 10.35vh;
+        margin-bottom: -15px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        
+    }
+
     }
